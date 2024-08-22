@@ -229,7 +229,7 @@ int main (int argc, char ** argv){
   topf << -simbox.dimensions.z/2 << " " << simbox.dimensions.z/2 << " zlo zhi\n\n";
   topf << "Atoms\n\n";
   for (size_t i = 0; i < n_part; i++){
-    topf << "   " << i << "   0   ";
+    topf << "   " << i+1 << "   0   ";
     if (i < n_scaf){
       topf << 1;
     } else {
