@@ -2,8 +2,8 @@
 #------ Begin Input ------#
 
 ## Files
-inFile = 32HB.json
-outFile = 32HB.dat
+inFile = smile.json
+outFile = smile.dat
 
 ## STEPS
 lsim = 1E6
