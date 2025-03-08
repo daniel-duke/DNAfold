@@ -2,7 +2,7 @@
 
 Access our user guide [here](https://daniel-duke.github.io/DNfold-docs/).
 
-See our publication in Nature Communications here.
+See our publication in Nature Communications [here](https://doi.org/10.1038/s41467-024-46998-y).
 
 ## Installation
 
