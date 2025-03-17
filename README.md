@@ -1,6 +1,6 @@
 # DNAfold
 
-Access our user guide [here](https://daniel-duke.github.io/DNfold-docs/).
+Access our user guide [here](https://daniel-duke.github.io/DNAfold-docs/).
 
 See our publication in Nature Communications [here](https://doi.org/10.1038/s41467-024-46998-y).
 
@@ -57,7 +57,7 @@ To get a feel for how the code works, feel free to run one of the examples. For 
 
 - To run the program in the background and save the standard output to a file, use the following command:
 
-	`nohup <PATH_TO_DNAFOLD>/dnafold input.txt >> report.out &`
+	`nohup <PATH_TO_DNAFOLD>/dnafold input.txt > report.out 2>&1 &`
 
 The program will automatically parse the caDNAno file referenced in the input file and run a simulation of its self-assembly, in either a forced or unforced manner depending upon the setting in the input file.
 
