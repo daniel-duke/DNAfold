@@ -28,6 +28,9 @@
 *.app
 dnafold
 
+# Apple
+.DS_Store
+
 # Simulation data
 *.dat
 
